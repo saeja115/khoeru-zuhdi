@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khairi Zuhdi — Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">
+      <span class="logo-bracket">[</span>KZ<span class="logo-bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#tentang" class="nav-link">Tentang</a></li>
+      <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+      <li><a href="#proyek" class="nav-link">Proyek</a></li>
+      <li><a href="#kontak" class="nav-link">Kontak</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag" data-aos>
+        <span class="tag-dot"></span>
+        Mahasiswa Sistem Informasi
+      </div>
+      <h1 class="hero-name" data-aos>
+        <span class="line-reveal">Khairi</span>
+        <span class="line-reveal delay-1">Zuhdi</span>
+      </h1>
+      <p class="hero-sub" data-aos>
+        Universitas Komputama &nbsp;·&nbsp; Sistem Informasi<br/>
+        Spesialis Microsoft Office &amp; Administrasi Data
+      </p>
+      <div class="hero-cta" data-aos>
+        <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
+        <a href="#keahlian" class="btn btn-ghost">Lihat Keahlian ↓</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <i class="fa-solid fa-user-tie"></i>
+        </div>
+        <svg class="ring-svg" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="90" fill="none" stroke="var(--accent)" stroke-width="1" stroke-dasharray="4 8" class="orbit-dash"/>
+        </svg>
+        <div class="orbit-dot"></div>
+      </div>
+      <div class="floating-badges">
+        <div class="badge badge-excel">
+          <i class="fa-solid fa-table-cells"></i> Excel
+        </div>
+        <div class="badge badge-word">
+          <i class="fa-solid fa-file-word"></i> Word
+        </div>
+        <div class="badge badge-data">
+          <i class="fa-solid fa-chart-bar"></i> Data
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TENTANG -->
+  <section class="section" id="tentang">
+    <div class="container">
+      <div class="section-label">// 01 — Tentang Saya</div>
+      <div class="tentang-grid">
+        <div class="tentang-text" data-aos>
+          <h2 class="section-title">Siapa <em>Saya?</em></h2>
+          <p>Saya <strong>Khairi Zuhdi</strong>, mahasiswa aktif <strong>Sistem Informasi</strong> di Universitas Komputama yang memiliki keahlian kuat dalam pengolahan data dan otomasi dokumen menggunakan Microsoft Office Suite.</p>
+          <p>Dengan pengalaman praktis dalam membuat laporan profesional, dashboard data, dan manajemen dokumen massal, saya siap mendukung kebutuhan administrasi dan analitik tim Anda secara efisien.</p>
+          <div class="info-chips">
+            <span class="chip"><i class="fa-solid fa-graduation-cap"></i> Sistem Informasi</span>
+            <span class="chip"><i class="fa-solid fa-university"></i> Universitas Komputama</span>
+            <span class="chip"><i class="fa-solid fa-location-dot"></i> Indonesia</span>
+          </div>
+        </div>
+        <div class="tentang-stats" data-aos>
+          <div class="stat-card">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Tahun Pengalaman Office</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">100+</div>
+            <div class="stat-label">Dokumen Diproses</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">5</div>
+            <div class="stat-label">Tools Dikuasai</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">∞</div>
+            <div class="stat-label">Semangat Belajar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEAHLIAN -->
+  <section class="section section-dark" id="keahlian">
+    <div class="container">
+      <div class="section-label light">// 02 — Keahlian</div>
+      <h2 class="section-title light" data-aos>Apa yang <em>Bisa Saya Lakukan?</em></h2>
+
+      <div class="skills-grid">
+
+        <!-- Word -->
+        <div class="skill-card" data-aos>
+          <div class="skill-icon skill-icon-blue">
+            <i class="fa-solid fa-file-word"></i>
+          </div>
+          <div class="skill-header">
+            <h3>Microsoft Word</h3>
+            <span class="skill-level mahir">Mahir</span>
+          </div>
+          <p class="skill-desc">Membuat dokumen profesional seperti surat, laporan, dan proposal dengan kualitas tinggi.</p>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-check"></i> Mail merge untuk undangan &amp; label massal</li>
+            <li><i class="fa-solid fa-check"></i> Heading &amp; daftar isi otomatis</li>
+            <li><i class="fa-solid fa-check"></i> Template dokumen profesional</li>
+            <li><i class="fa-solid fa-check"></i> Review &amp; Track Changes kolaborasi</li>
+            <li><i class="fa-solid fa-check"></i> Styling &amp; formatting lanjutan</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-pct="90"></div>
+          </div>
+        </div>
+
+        <!-- Excel -->
+        <div class="skill-card featured" data-aos>
+          <div class="skill-badge-top">⭐ Unggulan</div>
+          <div class="skill-icon skill-icon-green">
+            <i class="fa-solid fa-table-cells-large"></i>
+          </div>
+          <div class="skill-header">
+            <h3>Microsoft Excel</h3>
+            <span class="skill-level mahir">Mahir</span>
+          </div>
+          <p class="skill-desc">Mengolah dan menganalisis data dengan fungsi-fungsi Excel tingkat lanjut untuk kebutuhan bisnis.</p>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-check"></i> VLOOKUP / XLOOKUP</li>
+            <li><i class="fa-solid fa-check"></i> IF, SUMIF, COUNTIF</li>
+            <li><i class="fa-solid fa-check"></i> PivotTable &amp; PivotChart</li>
+            <li><i class="fa-solid fa-check"></i> Conditional Formatting</li>
+            <li><i class="fa-solid fa-check"></i> Dashboard laporan bulanan</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-pct="92"></div>
+          </div>
+        </div>
+
+        <!-- PowerPoint -->
+        <div class="skill-card" data-aos>
+          <div class="skill-icon skill-icon-orange">
+            <i class="fa-solid fa-display"></i>
+          </div>
+          <div class="skill-header">
+            <h3>Microsoft PowerPoint</h3>
+            <span class="skill-level menengah">Menengah+</span>
+          </div>
+          <p class="skill-desc">Merancang slide presentasi yang menarik dan informatif untuk berbagai keperluan.</p>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-check"></i> Desain slide presentasi</li>
+            <li><i class="fa-solid fa-check"></i> Animasi &amp; transisi</li>
+            <li><i class="fa-solid fa-check"></i> Infografis visual</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-pct="80"></div>
+          </div>
+        </div>
+
+        <!-- Google Workspace -->
+        <div class="skill-card" data-aos>
+          <div class="skill-icon skill-icon-yellow">
+            <i class="fa-brands fa-google"></i>
+          </div>
+          <div class="skill-header">
+            <h3>Google Workspace</h3>
+            <span class="skill-level menengah">Menengah+</span>
+          </div>
+          <p class="skill-desc">Kolaborasi tim secara online menggunakan ekosistem Google yang terintegrasi.</p>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-check"></i> Google Docs &amp; Sheets</li>
+            <li><i class="fa-solid fa-check"></i> Google Slides &amp; Forms</li>
+            <li><i class="fa-solid fa-check"></i> Google Drive manajemen file</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-pct="82"></div>
+          </div>
+        </div>
+
+        <!-- Administrasi Data -->
+        <div class="skill-card" data-aos>
+          <div class="skill-icon skill-icon-purple">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="skill-header">
+            <h3>Administrasi Data</h3>
+            <span class="skill-level mahir">Mahir</span>
+          </div>
+          <p class="skill-desc">Mengelola, membersihkan, dan menyajikan data secara akurat dan terstruktur.</p>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-check"></i> Input data akurat &amp; cepat</li>
+            <li><i class="fa-solid fa-check"></i> Cleaning &amp; validasi data</li>
+            <li><i class="fa-solid fa-check"></i> Laporan berkala terstruktur</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-pct="88"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYEK -->
+  <section class="section" id="proyek">
+    <div class="container">
+      <div class="section-label">// 03 — Proyek &amp; Portofolio</div>
+      <h2 class="section-title" data-aos>Hasil <em>Karya Saya</em></h2>
+
+      <div class="proyek-grid">
+        <div class="proyek-card" data-aos>
+          <div class="proyek-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+          <div class="proyek-info">
+            <h3>Sistem Mail Merge Massal</h3>
+            <p>Membuat template surat undangan dengan mail merge di Microsoft Word untuk 500+ penerima secara otomatis dan akurat.</p>
+            <div class="proyek-tags">
+              <span>Microsoft Word</span><span>Mail Merge</span><span>Otomasi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyek-card" data-aos>
+          <div class="proyek-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="proyek-info">
+            <h3>Dashboard Laporan Bulanan</h3>
+            <p>Membangun dashboard interaktif Excel dengan PivotTable, grafik dinamis, dan conditional formatting untuk rekap data organisasi.</p>
+            <div class="proyek-tags">
+              <span>Excel</span><span>Dashboard</span><span>PivotTable</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyek-card" data-aos>
+          <div class="proyek-icon"><i class="fa-solid fa-file-invoice"></i></div>
+          <div class="proyek-info">
+            <h3>Template Laporan Profesional</h3>
+            <p>Merancang template laporan Word dengan daftar isi otomatis, heading terstruktur, dan format sesuai standar perusahaan.</p>
+            <div class="proyek-tags">
+              <span>Word</span><span>Template</span><span>TOC Otomatis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyek-card" data-aos>
+          <div class="proyek-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+          <div class="proyek-info">
+            <h3>Analisis Data VLOOKUP</h3>
+            <p>Menganalisis database karyawan dengan XLOOKUP, SUMIF, dan COUNTIF untuk menghasilkan rekap absensi dan kinerja.</p>
+            <div class="proyek-tags">
+              <span>Excel</span><span>XLOOKUP</span><span>Analisis Data</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyek-card" data-aos>
+          <div class="proyek-icon"><i class="fa-brands fa-google-drive"></i></div>
+          <div class="proyek-info">
+            <h3>Manajemen Arsip Google Drive</h3>
+            <p>Menyusun sistem pengarsipan file digital dengan Google Drive, termasuk struktur folder, naming convention, dan akses kolaboratif.</p>
+            <div class="proyek-tags">
+              <span>Google Drive</span><span>Manajemen File</span><span>Kolaborasi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyek-card" data-aos>
+          <div class="proyek-icon"><i class="fa-solid fa-presentation-screen"></i></div>
+          <div class="proyek-info">
+            <h3>Presentasi Infografis</h3>
+            <p>Merancang slide presentasi PowerPoint dengan infografis menarik, animasi profesional, dan visualisasi data yang informatif.</p>
+            <div class="proyek-tags">
+              <span>PowerPoint</span><span>Infografis</span><span>Animasi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="section section-dark" id="kontak">
+    <div class="container">
+      <div class="section-label light">// 04 — Kontak</div>
+      <h2 class="section-title light" data-aos>Mari <em>Bekerja Sama!</em></h2>
+      <p class="kontak-intro" data-aos>Butuh bantuan pengolahan data, pembuatan laporan, atau otomasi dokumen? Hubungi saya sekarang.</p>
+
+      <div class="kontak-grid">
+        <a href="tel:0882007082404" class="kontak-card" data-aos>
+          <div class="kontak-icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="kontak-info">
+            <span class="kontak-label">Telepon / WhatsApp</span>
+            <span class="kontak-val">0882-0070-82404</span>
+          </div>
+          <i class="fa-solid fa-arrow-right kontak-arrow"></i>
+        </a>
+
+        <a href="mailto:khoeruzuhdi7@gmail.com" class="kontak-card" data-aos>
+          <div class="kontak-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="kontak-info">
+            <span class="kontak-label">Email</span>
+            <span class="kontak-val">khoeruzuhdi7@gmail.com</span>
+          </div>
+          <i class="fa-solid fa-arrow-right kontak-arrow"></i>
+        </a>
+
+        <a href="https://wa.me/6282007082404" target="_blank" class="kontak-card kontak-wa" data-aos>
+          <div class="kontak-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <div class="kontak-info">
+            <span class="kontak-label">Chat Langsung</span>
+            <span class="kontak-val">WhatsApp Sekarang</span>
+          </div>
+          <i class="fa-solid fa-arrow-right kontak-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo"><span class="logo-bracket">[</span>KZ<span class="logo-bracket">]</span></span>
+        <p>© 2025 Khairi Zuhdi · Universitas Komputama · Sistem Informasi</p>
+        <p class="footer-made">Dibuat dengan <span class="heart">♥</span> &amp; kode</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
